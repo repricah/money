@@ -1,0 +1,20 @@
+version: 2
+project_name: money
+
+# Disable binary builds since this is a library
+builds:
+  - skip: true
+
+release:
+  github:
+    owner: repricah
+    name: money
+  draft: false
+  prerelease: auto
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
