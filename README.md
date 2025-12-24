@@ -132,7 +132,3 @@ decoder.Decode(rawConfig)
 ## License
 
 MIT License - see LICENSE file for details.
-
-## Related Projects
-
-- [tcg-repricer](https://github.com/repricah/tcg-repricer) - TCG inventory repricing tool using this library
